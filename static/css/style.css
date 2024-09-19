@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit";
+}
+
+body {
+  background-image: url(img/blue1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+#wrap1 {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: azure;
+}
+
+form {
+  margin-left: 30px;
+}
+
+#signup-form h1,
+#login h1 {
+  font-family: "Outfit";
+  padding-bottom: 20px;
+  color: #2e828e;
+}
+
+.btn {
+  border: 2px;
+  background: rgb(174, 237, 237);
+  background: linear-gradient(
+    207deg,
+    rgba(219, 252, 252, 0.4005251758906687) 0%,
+    rgba(9, 82, 121, 0.7142506660867471) 35%,
+    rgb(142, 212, 226) 100%
+  );
+  height: 40px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.btn:hover {
+  background: rgb(219, 252, 252);
+  background: linear-gradient(
+    207deg,
+    rgba(74, 97, 97, 0.891) 0%,
+    rgb(54, 90, 115) 0%,
+    rgba(9, 114, 121, 0.7142506660867471) 0%,
+    rgba(59, 90, 96, 0.983) 100%
+  );
+  cursor: pointer;
+}
+
+.confirm {
+  font-size: 12px;
+}
+
+.scrollable-form {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+#registered-users p {
+  text-indent: 10px;
+  padding-bottom: 20px;
+}
+.count {
+  text-indent: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  color: #2e828e;
+}
+
+#registered-users h3 {
+  font-family: "Outfit";
+  padding-bottom: 10px;
+  color: #2e828e;
+}
+
+.remove-btn {
+  border: 2px;
+  background: rgb(174, 237, 237);
+  background: linear-gradient(
+    207deg,
+    rgba(219, 252, 252, 0.4005251758906687) 0%,
+    rgba(9, 82, 121, 0.7142506660867471) 35%,
+    rgb(142, 212, 226) 100%
+  );
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+}
+
+.remove-btn:hover {
+  background: rgba(255, 0, 0, 0.625);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/*************HP******************/
+
+header {
+  background: rgb(174, 237, 237);
+  background: linear-gradient(
+    207deg,
+    rgba(219, 252, 252, 0.4005251758906687) 0%,
+    rgba(9, 82, 121, 0.7142506660867471) 35%,
+    rgb(142, 212, 226) 100%
+  );
+}
+
+#homepage h1 {
+  color: white;
+}
+
+h2 {
+  color: #2e828e;
+  letter-spacing: 0.1rem;
+}
+
+#logoutBtn {
+  border: 2px;
+  background: rgb(174, 237, 237);
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+}
+
+#logoutBtn:hover {
+  background: rgba(255, 0, 0, 0.625);
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  cursor: pointer;
+}
